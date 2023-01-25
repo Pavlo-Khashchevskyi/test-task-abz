@@ -1,0 +1,31 @@
+// Base: Root styles
+@import '../utils/variables';
+@import '../utils/mixins';
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+body {
+  background-color: $background;
+}
+
+button {
+  background: none;
+  border: none;
+  outline: 0;
+  font-family: 'Nunito', sans-serif;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+input {
+  font-family: 'Nunito', sans-serif;
+}

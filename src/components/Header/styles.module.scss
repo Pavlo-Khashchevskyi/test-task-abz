@@ -1,0 +1,28 @@
+@import '../../styles/utils/variables';
+@import '../../styles/utils/mixins';
+
+.header {
+  padding: 13px 0;
+  background-color: #fff;
+  box-shadow: 0px 2px 32px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.header_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 26px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  gap: 10px;
+}

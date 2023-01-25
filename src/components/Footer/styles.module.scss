@@ -1,0 +1,13 @@
+@import '../../styles/utils/variables';
+@import '../../styles/utils/mixins';
+
+.footer {
+  padding: 13px 0;
+  border-top: 1px solid #D0CFCF;
+}
+
+.title {
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(0, 0, 0, 0.87);
+}
