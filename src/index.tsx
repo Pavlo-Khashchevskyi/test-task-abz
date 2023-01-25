@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { SnackbarProvider } from 'notistack';
 // Components
@@ -23,11 +23,11 @@ root.render(
   <StyledEngineProvider injectFirst>
     <ThemeProvider theme={theme}>
       <Provider store={store}>
-        <BrowserRouter>
+        <Router>
           <SnackbarProvider maxSnack={3}>
             <App />
           </SnackbarProvider>
-        </BrowserRouter>
+        </Router>
       </Provider>
     </ThemeProvider>
   </StyledEngineProvider>
