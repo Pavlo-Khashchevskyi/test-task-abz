@@ -13,7 +13,7 @@ const Header:React.FC = () => {
   return (
     <header className={classes.header}>
       <div className={[classes.header_content, 'container'].join(' ')}>
-        <img src="/images/logo.svg" alt="testtask" className={classes.logo} onClick={scrollToTop} />
+        <img src="./images/logo.svg" alt="testtask" className={classes.logo} onClick={scrollToTop} />
         <nav className={classes.menu}>
           <Button variant="contained" onClick={() => scrollTo('users')}>Users</Button>
           <Button variant="contained" onClick={() => scrollTo('sign-up')}>Sign up</Button>
